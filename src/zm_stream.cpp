@@ -237,7 +237,7 @@ Image *StreamBase::prepareImage( Image *image )
   last_zoom = zoom;
   last_x = x;
   last_y = y;
-
+  image->DeColourise();
   return( image );
 }
 
