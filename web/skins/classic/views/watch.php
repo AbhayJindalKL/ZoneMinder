@@ -64,7 +64,7 @@ xhtmlHeaders( __FILE__, $monitor->Name()." - ".translate('Feed') );
   <div id="page">
     <div id="content">
       <div id="menuBar">
-        <div id="monitorName"><?php echo $monitor->Name() ?></div>
+        <div id="monitorName"><?php echo $monitor->Name() ?> :-)</div>
         <div id="closeControl"><a href="#" onclick="closeWindow(); return( false );"><?php echo translate('Close') ?></a></div>
         <div id="menuControls">
 <?php
